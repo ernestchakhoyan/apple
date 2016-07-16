@@ -1,4 +1,4 @@
-/*==========  Desktop First Method  ==========*/
+    /*==========  Desktop First Method  ==========*/
 
 
 /* Large Devices, Wide Screens */
@@ -15,14 +15,22 @@
     .iphone {
         width: 80%;
     }
+    .screen-footer .green-btn {
+        right: 239px;
+    }
     /********************************************************************/
     .feature-text button {
         margin-bottom: 10px;
     }
     /********************************************************************/
     .map-img {
-
         margin-right: -450px;
+    }
+    .flex-items:nth-child(1) {
+        margin-left: -13%;
+    }
+    .flex-items:nth-child(5) {
+        margin-right: -13%;
     }
 }
 
@@ -44,6 +52,9 @@
         -webkit-transform: translate3d(-320px, 0, 0);
         transform: translate3d(-320px, 0, 0);
     }
+    .screen-footer .green-btn {
+        right: 128px;
+    }
     /*FEATURES**************************************************************/
     .features {
         padding: 30px 0;
@@ -52,13 +63,19 @@
         margin-bottom: 74px;
     }
     /***************MAP*****************************************************/
-    .map{
+    .map {
         display: table;
     }
-    .map-img{
+    .map-img {
         display: table-footer-group;
         margin-top: 20px;
         float: none;
+    }
+    .flex-items:nth-child(1) {
+        margin-left: -28%;
+    }
+    .flex-items:nth-child(5) {
+        margin-right: -28%;
     }
 }
 
@@ -80,58 +97,58 @@
     }
     .iphone-feature {
         padding: 80px 0 30px 0;
-            min-height: 400px;
+        min-height: 400px;
     }
-    .iphone img{
+    .iphone img {
         display: none;
     }
-
-}
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-    /*HEADER******************************************************/
-    .header-text img {
+    .flex-items {
         display: none;
     }
-    .header-text p {
-        color: #696969;
+    .flex-items:nth-child(3) {
+        display: block;
+        margin-left: 2%;
     }
-    /********************************************************************/
-    .map-text ul img{
-        width: 50%;
-    }
-    .map-text ul li{
-        margin-right: 0;
+    .screen-footer input {
+        width: 300px;
+        float: left;
     }
 }
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 320px) {}
-
-/*==========  Mobile First Method  ==========*/
-
-
-/* Custom, iPhone Retina */
-
-@media only screen and (min-width: 320px) {}
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {}
-
-/* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {}
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {}
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1201px) {}
-@media(min-height:680px),
-(min-width:1400px) {}
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 480px) {
+        /*HEADER******************************************************/
+        .header-text img {
+            display: none;
+        }
+        .header-text p {
+            color: #696969;
+        }
+        /********************************************************************/
+        .map-text ul img {
+            width: 50%;
+        }
+        .map-text ul li {
+            margin-right: 0;
+        }
+        .flex-items:nth-child(3) img {
+            width: 220px;
+            height: 468px;
+        }
+    }
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width: 320px) {}
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {}
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width: 1201px) {}
+    @media(min-height:680px),
+    (min-width:1400px) {}
+    /************************Flex*************************************************/
+    @media only screen and (min-width: 992px) and (max-width: 1021px) {}
