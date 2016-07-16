@@ -397,7 +397,6 @@ nav {
     span {
         display: block;
         margin-bottom: 40px;
-
     }
     button {
         height: 70px;
@@ -437,7 +436,39 @@ nav {
         position: absolute;
     }
 }
+
 /*******************************************FLEX***********************************************/
-.flex-content{
+
+.flex-content {
     display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+    margin: 40px 0 190px 0;
+}
+.flex-items {
+    margin-right: 30px;
+    flex-shrink: 2;
+    img {
+        width: 220px;
+        height: 468px;
+        flex-grow: 1;
+        box-shadow: 10px 15px 16px rgba(61, 61, 62, 0.15);
+    }
+    &:nth-child(1) {
+        margin-left: -60px;
+    }
+    &:nth-child(5) {
+        margin-right: -60px;
+    }
+    &:nth-child(3) {
+        flex-grow: 2;
+        margin-top: 30px;
+        img {
+            width: 320px;
+            box-shadow: none;
+            height: 668px;
+            margin-bottom: -110px;
+        }
+    }
 }
