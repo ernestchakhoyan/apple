@@ -433,4 +433,12 @@ nav span strong {
   position: absolute;
 }
 
+/*******************************************FLEX***********************************************/
+.flex-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /*# sourceMappingURL=main.css.map */
