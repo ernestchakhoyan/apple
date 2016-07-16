@@ -1,0 +1,15 @@
+
+.icon-appstore:before { content: '\e800'; } /* '' */
+.icon-menu-1:before { content: '\e801'; } /* '' */
+.icon-play:before { content: '\e802'; } /* '' */
+.icon-right:before { content: '\e803'; } /* '' */
+.icon-left:before { content: '\e804'; } /* '' */
+.icon-star:before { content: '\e805'; } /* '' */
+.icon-cancel:before { content: '\e806'; } /* '' */
+.icon-gplus:before { content: '\e807'; } /* '' */
+.icon-alarm:before { content: '\e808'; } /* '' */
+.icon-lock-open-alt:before { content: '\f075'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-pinterest:before { content: '\f312'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */

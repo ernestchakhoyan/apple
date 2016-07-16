@@ -1,0 +1,6 @@
+@import "bourbon/bourbon";
+
+@include font-face("Lato_Bold_Italic", "/fonts/Lato_Bold_Italic/Lato-BoldItalic", $file-formats: eot ttf woff);
+@include font-face("Lato_Light", "/fonts/Lato_Light/Lato-Light", $file-formats: eot ttf woff);
+@include font-face("Lato_Regular", "/fonts/Lato_Regular/Lato-Regular", $file-formats: eot ttf woff);
+@include font-face("VarelaRound", "/fonts/VarelaRound/VarelaRound-Regular", $file-formats: eot ttf woff);

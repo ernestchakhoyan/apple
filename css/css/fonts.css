@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Lato_Bold_Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Lato_Bold_Italic/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato_Bold_Italic/Lato-BoldItalic.woff") format("woff"), url("/fonts/Lato_Bold_Italic/Lato-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato_Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Lato_Light/Lato-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato_Light/Lato-Light.woff") format("woff"), url("/fonts/Lato_Light/Lato-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato_Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Lato_Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Lato_Regular/Lato-Regular.woff") format("woff"), url("/fonts/Lato_Regular/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "VarelaRound";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/VarelaRound/VarelaRound-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/VarelaRound/VarelaRound-Regular.woff") format("woff"), url("/fonts/VarelaRound/VarelaRound-Regular.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=fonts.css.map */
