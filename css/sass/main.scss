@@ -44,6 +44,7 @@ h3 {
         background-color: #fff;
         color: $heading-text;
         border-color: #d9dcde;
+
         &:hover {
             background-color: $blue-color;
             color: #fff;
@@ -67,7 +68,7 @@ h3 {
 header {
     min-height: 1000px;
     text-align: center;
-    background-image: url(/img/banner_background.jpg);
+    background-image: url(../img/banner_background.jpg);
     background-position: center bottom;
     background-size: cover;
     position: relative;
@@ -93,6 +94,7 @@ nav {
         margin-top: 50px;
         padding: 5px 20px;
         height: 40px;
+
     }
     .pushy.pushy-left {
         width: 400px;
@@ -220,6 +222,7 @@ nav {
         left: 50%;
         margin-left: -185px;
     }
+
 }
 .fixed {
     position: fixed;
@@ -269,10 +272,10 @@ nav {
     }
 }
 
-/**********************************************************************************************************************************/
+/********************************************************************************************************************************/
 
 
-/***********************************************IPHONE_Feature**********************************************************************/
+/*********************************************IPHONE_Feature**********************************************************************/
 
 .iphone-feature {
     min-height: 800px;
@@ -308,10 +311,10 @@ nav {
     }
 }
 
-/**********************************************************************************************************************************/
 
 
-/********************************************MAP************************************************************************************/
+
+/******************************************MAP************************************************************************************/
 
 .map {
     min-height: 500px;
@@ -358,6 +361,10 @@ nav {
         text-transform: uppercase;
     }
 }
+.main-pic{
+    width: 240px;
+    height: 500px;
+}
 .blue-line {
     width: 50px;
     height: 2px;
@@ -365,7 +372,6 @@ nav {
     margin: auto;
     margin-bottom: 40px;
 }
-
 
 /*******************************************FLEX***********************************************/
 
@@ -402,8 +408,99 @@ nav {
         }
     }
 }
-/***************************************************************************************************/
-.slider{
-    height: 750px;
 
+/**************************************SLIDER*************************************************************/
+
+.slider {
+    min-height: 750px;
+}
+.carousel-item {
+    text-align: center;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        li {
+            display: inline-block;
+        }
+        i {
+            color: #f2bc3b;
+        }
+    }
+    span {
+        font-size: 30px;
+        font-weight: bold;
+        color: $heading-text;
+        display: block;
+        margin-top: 40px;
+    }
+}
+.slider-img {
+    width: 125px;
+    height: 125px;
+    margin: 130px auto 80px auto;
+    img {
+        border-radius: 50%;
+        box-shadow: 20px 20px 40px rgba(92, 95, 101, .28);
+    }
+}
+.owl-nav {
+    div {
+        display: block;
+        width: 25px;
+        height: 40px;
+        background-image: url(../img/arrows.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 220px;
+        &.owl-next {
+            background-position: top right;
+            right: 0;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+/*******************************************FOOTER**************************************************************/
+footer{
+    min-height: 100px;
+    border-top:  1px solid #f4f4f4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-left{
+    text-align: left;
+        padding-top: 20px;
+    a{
+        color:$blue-color;
+        margin-left: 10px;
+    }
+    span{
+        color: $heading-text;
+        display: inline-block;
+    }
+}
+.footer-right{
+    text-align: right;
+    padding-top: 20px;
+    p{
+        margin: 0;
+        color: $heading-text;
+        display: inline-block;
+
+    }
+    span{
+            color:$blue-color;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+}
+.footer-logo{
+    text-align: center;
+    img{
+        height: 80px;
+        width: 80px;
+        margin-top: -10px;
+
+    }
 }

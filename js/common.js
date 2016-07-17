@@ -24,15 +24,34 @@ $(document).ready(function () {
             $('.top-line').removeClass('fixed shadow');
             $('.clone-nav').hide();
         }
+
+
+    });
+    /*********************************************CAROUSEL*********************************/
+    $('.carousel').owlCarousel({
+        loop: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+        },
+        navText: "",
+        autoplay: true,
+        autoplayTimeout: 3000,
     });
 
-    /**********************************************************************************/
-    $(document).ready(function () {
-        $('.carousel').owlCarousel({
-            loop: true,
-            responsiveClass: true,
-            autoplay: true,
-            autoplayTimeout:3000,
-        });
-    });
+    /******************************************ANIMATE***************************************/
+    $('.top-line').animated('bounceInDown');
+    $('.header-text').animated('bounceInLeft','bounceOutRight');
+    $('.feat-items').animated('fadeInUp','fadeOutRight');
+    $('.feat-items').animated('fadeInUp','fadeOutRight');
+    $('.iphone').animated('zoomIn','zoomOut');
+    $('.map-img').animated('slideInRight','slideOutRight');
+    $('.map-text').animated('slideInLeft','slideOutLeft');
+    $('.screens h2').animated('fadeInDown','fadeOutUp');
+
+
+
+
 });
